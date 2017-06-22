@@ -8,6 +8,8 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
    this.route('orders');
+
+   /*Displaying single order*/
    this.route('order', { path: '/orders/:order_id' });
 });
 
